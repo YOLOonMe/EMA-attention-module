@@ -25,3 +25,7 @@
 | MobileNetv2-CBAM [8]| 224 | 3.89M | 300 | 73.6 | - |
 | MobileNetv2-CoordAttention [8]| 224 | 3.95M | 310 | 74.3 | - |
 | MobileNetv2-EMA| 224 | 3.55M | 306 | 74.32 | 91.82 |
+
+## Results on COCO 2017 with Yolov5s(v6.0）
+
+## Results on VisDrone 2019 with Yolov5X (v6.0）
