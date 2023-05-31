@@ -8,10 +8,10 @@
 | Name                     | Resolution | #Params | Top-1 Acc. | Top-5 Acc. |
 |:------------------------:|:----------:|:-------:|:----------:|:----------:|
 | ResNet50                 |     32     | 23.71M  |   77.26    |    93.63   | 
-| ResNet50-CBAM            |     32     | 26.24M  |   80.56    |    95.34   |
-| ResNet50-SE              |     32     | 23.71M  |   79.92    |    95.00   | 
+| [ResNet50-CBAM](https://github.com/Christian-lyc/NAM)            |     32     | 26.24M  |   80.56    |    95.34   |
+| ResNet50-SA              |     32     | 23.71M  |   79.92    |    95.00   | 
 | ResNet50-ECA             |     32     | 23.71M  |   79.68    |    95.05   |
-| ResNet50-NAM             |     32     | 23.71M  |   80.62    |    95.28   |
+| [ResNet50-NAM](https://github.com/Christian-lyc/NAM)             |     32     | 23.71M  |   80.62    |    95.28   |
 | ResNet50-CoordAttention  |     32     | 25.57M  |   80.17    |    94.94   |
 | ResNet50-EMA             |     32     | 23.85M  |   80.69    |    95.59   |
 | ResNet101                |     32     | 42.70M  |   77.78    |    94.39   |
