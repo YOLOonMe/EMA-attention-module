@@ -3,7 +3,7 @@
 
 # Results 
 
-- Training on CIFAR-100 with ResNet50 and ResNet101 for 200 epochs.
+- Training on CIFAR-100 with ResNet for 200 epochs.
 
 | Name                     | Resolution | #Params | Top-1 Acc. | Top-5 Acc. |
 |:------------------------:|:----------:|:-------:|:----------:|:----------:|
