@@ -52,8 +52,8 @@
 
 | Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|
-| [YOLOv5x (v6.0)](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression)                |     640    |  90.96M  |     314.2    |    49.29    |   30.0    |
-| YOLOv5x-[CBAM](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression)|     640    |  91.31M  |     315.1    |    49.40      |      30.1      |
+| YOLOv5x (v6.0)               |     640    |  90.96M  |     314.2    |    49.29    |   30.0    |
+| [YOLOv5x-CBAM](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression)|     640    |  91.31M  |     315.1    |    49.40      |      30.1      |
 | YOLOv5x-CoordAttention|     640    |  91.28M  |     315.2    |    49.30    |     30.1      |
 | YOLOv5x-EMA               |     640    |  91.18M  |     315.0    |    49.70   |   30.4    |
 
