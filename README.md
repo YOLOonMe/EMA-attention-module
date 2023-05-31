@@ -33,7 +33,7 @@
 
 | Name                     | Resolution | #Params |    MFLOPs   |Top-1 Acc. | Top-5 Acc. |
 |:------------------------:|:----------:|:-------:|:----------:|:----------:|:------------------:|
-| [MobileNetv2](https://github.com/d-li14/mobilenetv2.pytorch)                 |     224     | 3.504M  | 300.79  |   72.192    |    90.534   |
+| MobileNetv2                 |     224     | 3.504M  | 300.79  |   72.192    |    90.534   |
 | MobileNetv2-EMA             |     224     | -  | 302     |    72.55    |    90.89    |
 
 
