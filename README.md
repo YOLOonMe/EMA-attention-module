@@ -23,9 +23,9 @@
 | Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|
 | MobileNetv2                   |     224    |  3.50M  |     300    |    72.3    |   91.02    | 
-| MobileNetv2-[SE](https://github.com/houqb/CoordAttention)           |     224    |  3.89M  |     300    |    73.5    |     -      |
-| MobileNetv2-[CBAM](https://github.com/houqb/CoordAttention)          |     224    |  3.89M  |     300    |    73.6    |     -      |
-| MobileNetv2-[CoordAttention](https://github.com/houqb/CoordAttention)|     224    |  3.95M  |     310    |    74.3    |     -      |
+| [MobileNetv2-SE](https://github.com/houqb/CoordAttention)           |     224    |  3.89M  |     300    |    73.5    |     -      |
+| [MobileNetv2-CBAM](https://github.com/houqb/CoordAttention)          |     224    |  3.89M  |     300    |    73.6    |     -      |
+| [MobileNetv2-CoordAttention](https://github.com/houqb/CoordAttention)|     224    |  3.95M  |     310    |    74.3    |     -      |
 | MobileNetv2-EMA               |     224    |  3.55M  |     306    |    74.32   |   91.82    |
 
 
@@ -41,7 +41,7 @@
 
 | Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|
-| [YOLOv5s (v6.0)](https://github.com/ultralytics/yolov5/tree/v6.0)                |     640    |  7.23M  |     16.5    |    56.0    |   37.2    |
+| YOLOv5s (v6.0) |     640    |  7.23M  |     16.5    |    56.0    |   37.2    |
 | YOLOv5s-CBAM         |     640    |  7.27M  |     16.6    |    57.1    |     37.7      | 
 | YOLOv5s-SA|     640    |  7.23M  |     16.5    |    56.8      |       37.4      |
 | YOLOv5s-ECA|     640    |  7.23M  |     16.5    |    57.1      |       37.6      |
