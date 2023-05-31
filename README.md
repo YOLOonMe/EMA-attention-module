@@ -3,7 +3,7 @@
 
 # Results 
 
-- Training on CIFAR-100 with ResNet50 and ResNet101.
+- Training on CIFAR-100 with ResNet50 and ResNet101 for 200 epochs.
 
 | Name                     | Resolution | #Params | Top-1 Acc. | Top-5 Acc. |
 |:------------------------:|:----------:|:-------:|:----------:|:----------:|
@@ -18,7 +18,7 @@
 | ResNet101-CoordAttention |     32     | 46.22M  |   80.01    |    94.78   |
 | ResNet101-EMA            |     32     | 42.96M  |   80.86    |    95.75   |
 
-- Training on ImageNet-1k with [MobileNetv2](https://github.com/huggingface/pytorch-image-models) .
+- Training on ImageNet-1k with [MobileNetv2](https://github.com/huggingface/pytorch-image-models) for 400 epochs.
 
 | Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|
@@ -29,7 +29,7 @@
 | MobileNetv2-EMA               |     224    |  3.55M  |     306    |    74.32   |   91.82    |
 
 
-- Training on ImageNet-1k with [MobileNetv2](https://github.com/d-li14/mobilenetv2.pytorch) .
+- Training on ImageNet-1k with [MobileNetv2](https://github.com/d-li14/mobilenetv2.pytorch) for 200 epochs.
 
 | Name                     | Resolution | #Params |    MFLOPs   |Top-1 Acc. | Top-5 Acc. |
 |:------------------------:|:----------:|:-------:|:----------:|:----------:|:------------------:|
