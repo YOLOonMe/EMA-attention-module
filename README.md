@@ -37,7 +37,7 @@
 | MobileNetv2-EMA             |     224     | -  | 302     |    72.55    |    90.89    |
 
 
-- Training on COCO 2017 with [YOLOv5s](https://github.com/ultralytics/yolov5/tree/v6.0) .
+- Training on COCO 2017 with [YOLOv5s](https://github.com/ultralytics/yolov5/tree/v6.0) for 300 epochs.
 
 | Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|
@@ -48,7 +48,7 @@
 | YOLOv5s-CoordAttention|     640    |  7.26M  |     16.50    |    57.5    |     38.1      |
 | YOLOv5s-EMA               |     640    |  7.24M  |     16.53    |    57.8   |   38.4    |
 
-- Training on VisDrone 2019 with [YOLOv5x](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression) .
+- Training on VisDrone 2019 with [YOLOv5x](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression) for 300 epochs.
 
 | Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|
