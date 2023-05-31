@@ -12,10 +12,10 @@
 | + SA              |     32     | 23.71M  |   79.92    |    95.00   | 
 | + ECA             |     32     | 23.71M  |   79.68    |    95.05   |
 | [+ NAM](https://github.com/Christian-lyc/NAM)             |     32     | 23.71M  |   80.62    |    95.28   |
-| + CoordAttention  |     32     | 25.57M  |   80.17    |    94.94   |
+| + CA  |     32     | 25.57M  |   80.17    |    94.94   |
 | + EMA             |     32     | 23.85M  |   80.69    |    95.59   |
 | ResNet101                |     32     | 42.70M  |   77.78    |    94.39   |
-| + CoordAttention |     32     | 46.22M  |   80.01    |    94.78   |
+| + CA |     32     | 46.22M  |   80.01    |    94.78   |
 | + EMA            |     32     | 42.96M  |   80.86    |    95.75   |
 
 - Training on ImageNet-1k with [MobileNetv2](https://github.com/huggingface/pytorch-image-models) for 400 epochs.
@@ -25,7 +25,7 @@
 | MobileNetv2                   |     224    |  3.50M  |     300    |    72.3    |   91.02    | 
 | [+ SE](https://github.com/houqb/CoordAttention)           |     224    |  3.89M  |     300    |    73.5    |     -      |
 | [+ CBAM](https://github.com/houqb/CoordAttention)          |     224    |  3.89M  |     300    |    73.6    |     -      |
-| [+ CoordAttention](https://github.com/houqb/CoordAttention)|     224    |  3.95M  |     310    |    74.3    |     -      |
+| [+ CA](https://github.com/houqb/CoordAttention)|     224    |  3.95M  |     310    |    74.3    |     -      |
 | + EMA               |     224    |  3.55M  |     306    |    74.32   |   91.82    |
 
 
@@ -45,7 +45,7 @@
 | + CBAM         |     640    |  7.27M  |     16.6    |    57.1    |     37.7      | 
 | + SA|     640    |  7.23M  |     16.5    |    56.8      |       37.4      |
 | + ECA|     640    |  7.23M  |     16.5    |    57.1      |       37.6      |
-| + CoordAttention|     640    |  7.26M  |     16.50    |    57.5    |     38.1      |
+| + CA|     640    |  7.26M  |     16.50    |    57.5    |     38.1      |
 | + EMA               |     640    |  7.24M  |     16.53    |    57.8   |   38.4    |
 
 - Training on VisDrone 2019 with [YOLOv5x](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression) for 300 epochs.
@@ -54,7 +54,7 @@
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|
 | YOLOv5x (v6.0)               |     640    |  90.96M  |     314.2    |    49.29    |   30.0    |
 | [+ CBAM](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression)|     640    |  91.31M  |     315.1    |    49.40      |      30.1      |
-| + CoordAttention|     640    |  91.28M  |     315.2    |    49.30    |     30.1      |
+| + CA|     640    |  91.28M  |     315.2    |    49.30    |     30.1      |
 | + EMA               |     640    |  91.18M  |     315.0    |    49.70   |   30.4    |
 
 
