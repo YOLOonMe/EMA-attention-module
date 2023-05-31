@@ -36,10 +36,26 @@
 | [MobileNetv2](https://github.com/d-li14/mobilenetv2.pytorch)                 |     224     | 3.504M  | 300.79  |   72.192    |    90.534   |
 | MobileNetv2-EMA             |     224     | -  | 302     |    72.55    |    90.89    |
 
-## Results on COCO 2017 with Yolov5s (v6.0）
 
-## Results on VisDrone 2019 with Yolov5X (v6.0）
+- Training on COCO 2017 with [YOLOv5s](https://github.com/ultralytics/yolov5/tree/v6.0) .
 
+| Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. |
+|:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|
+| YOLOv5s (v6.0)                |     640    |  7.23M  |     16.5    |    56.0    |   37.2    |
+| YOLOv5s-CBAM         |     640    |  7.27M  |     16.6    |    57.1    |     37.7      | 
+| YOLOv5s-SA|     640    |  7.23M  |     16.5    |    56.8      |       37.4      |
+| YOLOv5s-ECA|     640    |  7.23M  |     16.5    |    57.1      |       37.6      |
+| YOLOv5s-CoordAttention|     640    |  7.26M  |     16.50    |    57.5    |     38.1      |
+| YOLOv5s-EMA               |     640    |  7.24M  |     16.53    |    57.8   |   38.4    |
+
+- Training on VisDrone 2019 with [YOLOv5x](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression) .
+
+| Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. |
+|:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|
+| YOLOv5x (v6.0)                |     640    |  90.96M  |     314.2    |    49.29    |   30.0    |
+| YOLOv5x-[CBAM](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression)|     640    |  91.31M  |     315.1    |    49.40      |      30.1      |
+| YOLOv5x-CoordAttention|     640    |  91.28M  |     315.2    |    49.30    |     30.1      |
+| YOLOv5x-EMA               |     640    |  91.18M  |     315.0    |    49.70   |   30.4    |
 
 
 ## References
