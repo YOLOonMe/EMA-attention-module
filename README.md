@@ -5,18 +5,18 @@
 
 - Training on CIFAR-100 with ResNet for 200 epochs.
 
-| Name                     | Resolution | #Params | Top-1 Acc. | Top-5 Acc. |
-|:------------------------:|:----------:|:-------:|:----------:|:----------:|
-| ResNet50                 |     32     | 23.71M  |   77.26    |    93.63   | 
-| [+ CBAM](https://github.com/Christian-lyc/NAM)            |     32     | 26.24M  |   80.56    |    95.34   |
-| + SA              |     32     | 23.71M  |   79.92    |    95.00   | 
-| + ECA             |     32     | 23.71M  |   79.68    |    95.05   |
-| [+ NAM](https://github.com/Christian-lyc/NAM)             |     32     | 23.71M  |   80.62    |    95.28   |
-| + CA  |     32     | 25.57M  |   80.17    |    94.94   |
-| + EMA             |     32     | 23.85M  |   80.69    |    95.59   |
-| ResNet101                |     32     | 42.70M  |   77.78    |    94.39   |
-| + CA |     32     | 46.22M  |   80.01    |    94.78   |
-| + EMA            |     32     | 42.96M  |   80.86    |    95.75   |
+| Name                     | Resolution | #Params | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
+|:------------------------:|:----------:|:-------:|:----------:|:----------:|:------------------:|
+| ResNet50                 |     32     | 23.71M  |   77.26    |    93.63   |          -         | 
+| [+ CBAM](https://github.com/Christian-lyc/NAM)            |     32     | 26.24M  |   80.56    |    95.34   |          -         |
+| + SA              |     32     | 23.71M  |   79.92    |    95.00   |          -         | 
+| + ECA             |     32     | 23.71M  |   79.68    |    95.05   |          -         |
+| [+ NAM](https://github.com/Christian-lyc/NAM)             |     32     | 23.71M  |   80.62    |    95.28   |          -         |
+| + CA  |     32     | 25.57M  |   80.17    |    94.94   |          -         |
+| + EMA             |     32     | 23.85M  |   80.69    |    95.59   |          [ema_model_best.pth.tar](https://pan.baidu.com/s/1uar2PD3GnFhRD8royh6F6Q?pwd=1234)         |
+| ResNet101                |     32     | 42.70M  |   77.78    |    94.39   |          -         |
+| + CA |     32     | 46.22M  |   80.01    |    94.78   |          -         |
+| + EMA            |     32     | 42.96M  |   80.86    |    95.75   |          -         |
 
 - Training on ImageNet-1k with [MobileNetv2](https://github.com/huggingface/pytorch-image-models) for 400 epochs.
 
@@ -39,23 +39,23 @@
 
 - Training on COCO 2017 with [YOLOv5s](https://github.com/ultralytics/yolov5/tree/v6.0) for 300 epochs.
 
-| Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. |
-|:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|
-| YOLOv5s (v6.0) |     640    |  7.23M  |     16.5    |    56.0    |   37.2    |
-| + CBAM         |     640    |  7.27M  |     16.6    |    57.1    |     37.7      | 
-| + SA|     640    |  7.23M  |     16.5    |    56.8      |       37.4      |
-| + ECA|     640    |  7.23M  |     16.5    |    57.1      |       37.6      |
-| + CA|     640    |  7.26M  |     16.50    |    57.5    |     38.1      |
-| + EMA               |     640    |  7.24M  |     16.53    |    57.8   |   38.4    |
+| Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
+|:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|:------------------:|
+| YOLOv5s (v6.0) |     640    |  7.23M  |     16.5    |    56.0    |   37.2    |       -      | 
+| + CBAM         |     640    |  7.27M  |     16.6    |    57.1    |     37.7      |       -      |  
+| + SA|     640    |  7.23M  |     16.5    |    56.8      |       37.4      |       -      | 
+| + ECA|     640    |  7.23M  |     16.5    |    57.1      |       37.6      |       -      | 
+| + CA|     640    |  7.26M  |     16.50    |    57.5    |     38.1      |       -      | 
+| + EMA               |     640    |  7.24M  |     16.53    |    57.8   |   38.4    |      [yolov5s.pt](https://pan.baidu.com/s/1yIKsEVmWL72fCcab5zVQbA?pwd=1234)      | 
 
 - Training on VisDrone 2019 with [YOLOv5x](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression) for 300 epochs.
 
-| Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. |
-|:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|
-| YOLOv5x (v6.0)               |     640    |  90.96M  |     314.2    |    49.29    |   30.0    |
-| [+ CBAM](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression)|     640    |  91.31M  |     315.1    |    49.40      |      30.1      |
-| + CA|     640    |  91.28M  |     315.2    |    49.30    |     30.1      |
-| + EMA               |     640    |  91.18M  |     315.0    |    49.70   |   30.4    |
+| Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
+|:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|:------------------:|
+| YOLOv5x (v6.0)               |     640    |  90.96M  |     314.2    |    49.29    |   30.0    |       -      |
+| [+ CBAM](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression)|     640    |  91.31M  |     315.1    |    49.40      |      30.1      |       -      |
+| + CA|     640    |  91.28M  |     315.2    |    49.30    |     30.1      |       -      |
+| + EMA               |     640    |  91.18M  |     315.0    |    49.70   |   30.4    |       [yolov5x.pt](https://pan.baidu.com/s/1ACRXTw21KwV5GWplLPpKPg?pwd=1234)      |
 
 
 ## References
