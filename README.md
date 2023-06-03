@@ -3,7 +3,7 @@
 
 # Results 
 
-- Training on CIFAR-100 with ResNet.
+- Training on CIFAR-100 with ResNet for 200 epochs.
 
 | Name                     | Resolution | #Params | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
 |:------------------------:|:----------:|:-------:|:----------:|:----------:|:------------------:|
@@ -18,7 +18,7 @@
 | + CA |     32     | 46.22M  |   80.01    |    94.78   |          -         |
 | + EMA            |     32     | 42.96M  |   80.86    |    95.75   |          -         |
 
-- Training on ImageNet-1k with [MobileNetv2](https://github.com/huggingface/pytorch-image-models).
+- Training on ImageNet-1k with [MobileNetv2](https://github.com/huggingface/pytorch-image-models)  for 400 epochs.
 
 | Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|:------------------:|
@@ -29,7 +29,7 @@
 | + EMA               |     224    |  3.55M  |     306    |    74.32   |   91.82    |          [model](https://pan.baidu.com/s/1a1p30h-ZkDUSzKJLTGJSnw?pwd=1234)         | 
 
 
-- Training on ImageNet-1k with [MobileNetv2](https://github.com/d-li14/mobilenetv2.pytorch).
+- Training on ImageNet-1k with [MobileNetv2](https://github.com/d-li14/mobilenetv2.pytorch)  for 200 epochs.
 
 | Name                     | Resolution | #Params |    MFLOPs   |Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
 |:------------------------:|:----------:|:-------:|:----------:|:----------:|:------------------:|:------------:|
@@ -37,7 +37,7 @@
 | + EMA             |     224     | -  | 302     |    72.55    |    90.89    |        [model](https://pan.baidu.com/s/18MS8u9_P-KG9OfpIunRyKA?pwd=1234)         | 
 
 
-- Training on COCO 2017 with [YOLOv5s](https://github.com/ultralytics/yolov5/tree/v6.0).
+- Training on COCO 2017 with [YOLOv5s](https://github.com/ultralytics/yolov5/tree/v6.0)  for 300 epochs.
 
 | Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|:------------------:|
