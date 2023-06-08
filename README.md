@@ -41,7 +41,7 @@
 
 | Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|:------------------:|
-| YOLOv5s (v6.0) |     640    |  7.23M  |     16.5    |    56.0    |   37.2    |       -      | 
+| YOLOv5s (v6.0) |     640    |  7.23M  |     16.5    |    56.0    |   37.2    |       [yolov5s(v6.0)](https://github.com/ultralytics/yolov5/releases/tag/v6.0)      | 
 | + CBAM         |     640    |  7.27M  |     16.6    |    57.1    |     37.7      |        [cbam](https://pan.baidu.com/s/1A_hF7F86VPdtEA8s660nJw?pwd=7wf6)      |  
 | + SA|     640    |  7.23M  |     16.5    |    56.8      |       37.4      |        [sa](https://pan.baidu.com/s/1A_hF7F86VPdtEA8s660nJw?pwd=7wf6)      | 
 | + ECA|     640    |  7.23M  |     16.5    |    57.1      |       37.6      |        [eca](https://pan.baidu.com/s/1COOK_ltxTfEpwgu4ieTwAQ?pwd=mu94)      | 
