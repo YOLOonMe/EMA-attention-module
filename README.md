@@ -41,7 +41,7 @@
 
 | Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|:------------------:|
-| YOLOv5s (v6.0) |     640    |  7.23M  |     16.5    |    56.0    |   37.2    |       [yolov5s(v6.0)](https://github.com/ultralytics/yolov5/releases/tag/v6.0)      | 
+| YOLOv5s  |     640    |  7.23M  |     16.5    |    56.0    |   37.2    |       [yolov5s(v6.0)](https://github.com/ultralytics/yolov5/releases/tag/v6.0)      | 
 | + CBAM         |     640    |  7.27M  |     16.6    |    57.1    |     37.7      |        [cbam](https://pan.baidu.com/s/1A_hF7F86VPdtEA8s660nJw?pwd=7wf6)      |  
 | + SA|     640    |  7.23M  |     16.5    |    56.8      |       37.4      |        [sa](https://pan.baidu.com/s/1A_hF7F86VPdtEA8s660nJw?pwd=7wf6)      | 
 | + ECA|     640    |  7.23M  |     16.5    |    57.1      |       37.6      |        [eca](https://pan.baidu.com/s/1COOK_ltxTfEpwgu4ieTwAQ?pwd=mu94)      | 
@@ -55,7 +55,7 @@
 | YOLOv5x (v6.0)               |     640    |  90.96M  |     314.2    |    49.29    |   30.0    |       -      |
 | [+ CBAM](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression)|     640    |  91.31M  |     315.1    |    49.40      |      30.1      |       -      |
 | + CA|     640    |  91.28M  |     315.2    |    49.30    |     30.1      |       -      |
-| + EMA               |     640    |  91.18M  |     315.0    |    49.70   |   30.4    |       [yolov5x](https://pan.baidu.com/s/1p-1763222pb3FuXhVtIzbA?pwd=1234)      |
+| + EMA               |     640    |  91.18M  |     315.0    |    49.70   |   30.4    |       [ema](https://pan.baidu.com/s/1p-1763222pb3FuXhVtIzbA?pwd=1234)      |
 
 
 ## References
