@@ -13,7 +13,7 @@
 | + ECA             |     32     | 23.71M  |   79.68    |    95.05   |          -         |
 | [+ NAM](https://github.com/Christian-lyc/NAM)             |     32     | 23.71M  |   80.62    |    95.28   |          -         |
 | + CA  |     32     | 25.57M  |   80.17    |    94.94   |          -         |
-| + EMA             |     32     | 23.85M  |   80.69    |    95.59   |          [model](https://pan.baidu.com/s/14CdNiGyou1sLGcRYLYOVKg?pwd=1234)         |
+| + EMA             |     32     | 23.85M  |   80.69    |    95.59   |          [ema](https://pan.baidu.com/s/14CdNiGyou1sLGcRYLYOVKg?pwd=1234)         |
 | ResNet101                |     32     | 42.70M  |   77.78    |    94.39   |          -         |
 | + CA |     32     | 46.22M  |   80.01    |    94.78   |          -         |
 | + EMA            |     32     | 42.96M  |   80.86    |    95.75   |          -         |
