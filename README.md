@@ -26,7 +26,7 @@
 | [+ SE](https://github.com/houqb/CoordAttention)           |     224    |  3.89M  |     300    |    73.5    |     -      |          -         | 
 | [+ CBAM](https://github.com/houqb/CoordAttention)          |     224    |  3.89M  |     300    |    73.6    |     -      |          -         | 
 | [+ CA](https://github.com/houqb/CoordAttention)|     224    |  3.95M  |     310    |    74.3    |     -      |          -         | 
-| + EMA               |     224    |  3.55M  |     306    |    74.32   |   91.82    |          [model](https://pan.baidu.com/s/1a1p30h-ZkDUSzKJLTGJSnw?pwd=1234)         | 
+| + EMA               |     224    |  3.55M  |     306    |    74.32   |   91.82    |          [ema](https://pan.baidu.com/s/1a1p30h-ZkDUSzKJLTGJSnw?pwd=1234)         | 
 
 
 - Training on ImageNet-1k with [MobileNetv2](https://github.com/d-li14/mobilenetv2.pytorch)  for 200 epochs.
@@ -34,7 +34,7 @@
 | Name                     | Resolution | #Params |    MFLOPs   |Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
 |:------------------------:|:----------:|:-------:|:----------:|:----------:|:------------------:|:------------:|
 | MobileNetv2                 |     224     | 3.504M  | 300.79  |   72.192    |    90.534   |          -         | 
-| + EMA             |     224     | -  | 302     |    72.55    |    90.89    |        [model](https://pan.baidu.com/s/18MS8u9_P-KG9OfpIunRyKA?pwd=1234)         | 
+| + EMA             |     224     | -  | 302     |    72.55    |    90.89    |        [ema](https://pan.baidu.com/s/18MS8u9_P-KG9OfpIunRyKA?pwd=1234)         | 
 
 
 - Training on COCO 2017 with [YOLOv5s](https://github.com/ultralytics/yolov5/tree/v6.0)  for 300 epochs.
