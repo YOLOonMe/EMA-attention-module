@@ -42,11 +42,11 @@
 | Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|:------------------:|
 | YOLOv5s (v6.0) |     640    |  7.23M  |     16.5    |    56.0    |   37.2    |       -      | 
-| + CBAM         |     640    |  7.27M  |     16.6    |    57.1    |     37.7      |       -      |  
-| + SA|     640    |  7.23M  |     16.5    |    56.8      |       37.4      |       -      | 
-| + ECA|     640    |  7.23M  |     16.5    |    57.1      |       37.6      |       -      | 
-| + CA|     640    |  7.26M  |     16.50    |    57.5    |     38.1      |       -      | 
-| + EMA               |     640    |  7.24M  |     16.53    |    57.8   |   38.4    |      [yolov5s](https://pan.baidu.com/s/1_jmjIidvZ2hbMo-m-skmBg?pwd=1234)      | 
+| + CBAM         |     640    |  7.27M  |     16.6    |    57.1    |     37.7      |        [cbam](https://pan.baidu.com/s/1z7aY_hsGYA0tS2OigjE7Qw?pwd=1234)      |  
+| + SA|     640    |  7.23M  |     16.5    |    56.8      |       37.4      |        [sa](https://pan.baidu.com/s/1qNTCqSUKiM9MY0yw4UwjBA?pwd=1234)      | 
+| + ECA|     640    |  7.23M  |     16.5    |    57.1      |       37.6      |        [eca](https://pan.baidu.com/s/1gDdyHT3fc_OvXCNqOi37Nw?pwd=1234)      | 
+| + CA|     640    |  7.26M  |     16.50    |    57.5    |     38.1      |       [ca](https://pan.baidu.com/s/1kISnBgB5NSWkQT_uI4P3aw?pwd=1234)      | 
+| + EMA               |     640    |  7.24M  |     16.53    |    57.8   |   38.4    |      [ema](https://pan.baidu.com/s/1_jmjIidvZ2hbMo-m-skmBg?pwd=1234)      | 
 
 - Training on VisDrone 2019 with [YOLOv5x](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression).
 
