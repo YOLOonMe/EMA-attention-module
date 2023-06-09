@@ -7,7 +7,7 @@
 - Train
   ```shell
   CUDA_VISIBLE_DEVICES=0 python train_cifar100.py --b 142
-  ``
+  ```
 | Name                     | Resolution | #Params | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
 |:------------------------:|:----------:|:-------:|:----------:|:----------:|:------------------:|
 | ResNet50                 |     32     | 23.71M  |   77.26    |    93.63   |          -         | 
@@ -25,12 +25,11 @@
 - Train
   ```shell
   ./distributed_train.sh 2 ./ILSVRC2012/ --model mobilenetv2_100 -b 256 --sched cosine --epochs 400 --decay-epochs 2.4 --decay-rate .97 --opt-eps .001 -j 16 --weight-decay 1e-5 --drop 0.2 --drop-path 0.2 --model-ema --model-ema-decay 0.9999 --aa rand-m9-mstd0.5 --remode pixel --amp --lr 0.4 --warmup-epochs 5 
-
   ```
 - Val
   ```shell
   python validate.py ./ILSVRC2012/ --model mobilenetv2_100 --checkpoint model_best.pth.tar --use-ema
-  ``
+  ```
 | Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|:------------------:|
 | MobileNetv2                   |     224    |  3.50M  |     300    |    72.3    |   91.02    | 
