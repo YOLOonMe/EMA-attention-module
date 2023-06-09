@@ -41,8 +41,13 @@
 ## Usage
 Train
   ```shell
-  python train.py --data coco.yaml --cfg yolov5s_EMA.yaml --weights yolov5s.pt --batch-size 64 --device 0
+  python train.py --data coco.yaml --cfg yolov5s_EMA.yaml --weights yolov5s_EMA.pt --batch-size 64 --device 0
   ```
+Val
+  ```shell
+  python val.py --data coco.yaml --img 640 --conf 0.001 --iou 0.65 --weights yolov5s_EMA.pt 
+  ```
+  
 | Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|:------------------:|
 | YOLOv5s  |     640    |  7.23M  |     16.5    |    56.0    |   37.2    |       [yolov5s(v6.0)](https://github.com/ultralytics/yolov5/releases/tag/v6.0)      | 
