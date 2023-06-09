@@ -38,7 +38,6 @@
 
 
 ## Training on COCO 2017 with [YOLOv5s](https://github.com/ultralytics/yolov5/tree/v6.0)  for 300 epochs.
-# Usage
 - Train
   ```shell
   python train.py --data coco.yaml --cfg yolov5s_EMA.yaml --weights yolov5s_EMA.pt --batch-size 64 --device 0
