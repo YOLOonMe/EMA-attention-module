@@ -3,8 +3,11 @@
 
 # Results 
 
-- Training on CIFAR-100 with ResNet for 200 epochs.
-
+## Training on CIFAR-100 with ResNet for 200 epochs.
+- Train
+  ```shell
+  CUDA_VISIBLE_DEVICES=0 python train_cifar100.py --b 142
+  ``
 | Name                     | Resolution | #Params | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
 |:------------------------:|:----------:|:-------:|:----------:|:----------:|:------------------:|
 | ResNet50                 |     32     | 23.71M  |   77.26    |    93.63   |          -         | 
@@ -18,8 +21,16 @@
 | + CA |     32     | 46.22M  |   80.01    |    94.78   |          -         |
 | + EMA            |     32     | 42.96M  |   80.86    |    95.75   |          -         |
 
-- Training on ImageNet-1k with [MobileNetv2](https://github.com/huggingface/pytorch-image-models)  for 400 epochs.
+## Training on ImageNet-1k with [MobileNetv2](https://github.com/huggingface/pytorch-image-models)  for 400 epochs.
+- Train
+  ```shell
+  ./distributed_train.sh 2 ./ILSVRC2012/ --model mobilenetv2_100 -b 256 --sched cosine --epochs 400 --decay-epochs 2.4 --decay-rate .97 --opt-eps .001 -j 16 --weight-decay 1e-5 --drop 0.2 --drop-path 0.2 --model-ema --model-ema-decay 0.9999 --aa rand-m9-mstd0.5 --remode pixel --amp --lr 0.4 --warmup-epochs 5 
 
+  ```
+- Val
+  ```shell
+  python validate.py ./ILSVRC2012/ --model mobilenetv2_100 --checkpoint model_best.pth.tar --use-ema
+  ``
 | Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|:------------------:|
 | MobileNetv2                   |     224    |  3.50M  |     300    |    72.3    |   91.02    | 
@@ -29,8 +40,12 @@
 | + EMA               |     224    |  3.55M  |     306    |    74.32   |   91.82    |          [ema](https://pan.baidu.com/s/1a1p30h-ZkDUSzKJLTGJSnw?pwd=1234)         | 
 
 
-- Training on ImageNet-1k with [MobileNetv2](https://github.com/d-li14/mobilenetv2.pytorch)  for 200 epochs.
-
+## Training on ImageNet-1k with [MobileNetv2](https://github.com/d-li14/mobilenetv2.pytorch)  for 200 epochs.
+- Train
+  ```shell
+  python imagenet.py  -a mobilenetv2  -d <path-to-ILSVRC2012-data> --epochs 200 --lr-decay cos --lr 0.05 --wd 4e-5   -c <path-to-save-checkpoints>   --input-size 224 
+  ```
+  
 | Name                     | Resolution | #Params |    MFLOPs   |Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
 |:------------------------:|:----------:|:-------:|:----------:|:----------:|:------------------:|:------------:|
 | MobileNetv2                 |     224     | 3.504M  | 300.79  |   72.192    |    90.534   |          -         | 
@@ -56,8 +71,17 @@
 | + CA|     640    |  7.26M  |     16.50    |    57.5    |     38.1      |       [ca](https://pan.baidu.com/s/1coWhu_Ba5OuBtvNyNnCQEg?pwd=bg8u)      | 
 | + EMA               |     640    |  7.24M  |     16.53    |    57.8   |   38.4    |      [ema](https://pan.baidu.com/s/110v-K1CmsHDsR2PylarZgA?pwd=qamz)      | 
 
-- Training on VisDrone 2019 with [YOLOv5x](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression).
+## Training on VisDrone 2019 with [YOLOv5x](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression).
+- Train
+  ```shell
+  python train.py --data VisDrone.yaml --weights yolov5x.pt --cfg models/accModels/yolov5xP2CBAM.yaml --epochs 300 --batch-size 6 --img 640 --device 0
 
+  ```
+- Val
+  ```shell
+  python val.py --data VisDrone.yaml --img 640 --weights best.pt
+  ```
+  
 | Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|:------------------:|
 | YOLOv5x (v6.0)               |     640    |  90.96M  |     314.2    |    49.29    |   30.0    |       -      |
