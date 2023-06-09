@@ -37,13 +37,13 @@
 | + EMA             |     224     | -  | 302     |    72.55    |    90.89    |        [ema](https://pan.baidu.com/s/18MS8u9_P-KG9OfpIunRyKA?pwd=1234)         | 
 
 
-- Training on COCO 2017 with [YOLOv5s](https://github.com/ultralytics/yolov5/tree/v6.0)  for 300 epochs.
-## Usage
-Train
+## Training on COCO 2017 with [YOLOv5s](https://github.com/ultralytics/yolov5/tree/v6.0)  for 300 epochs.
+# Usage
+- Train
   ```shell
   python train.py --data coco.yaml --cfg yolov5s_EMA.yaml --weights yolov5s_EMA.pt --batch-size 64 --device 0
   ```
-Val
+- Val
   ```shell
   python val.py --data coco.yaml --img 640 --conf 0.001 --iou 0.65 --weights yolov5s_EMA.pt 
   ```
