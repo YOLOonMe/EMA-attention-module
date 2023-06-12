@@ -12,36 +12,6 @@
 - [Citing](#citing)
 
 
-## Sponsors
-
-
-# python validate.py E:/datasets/ILSVRC2012/ --model mobilenetv2_100 --checkpoint model_best.pth.tar --use-ema
-###################  
-
-
-################### 
-
-
-
-
-./distributed_train.sh 2 ./ILSVRC2012/ --model mobilenetv2_100 -b 256 --sched cosine --epochs 400 --decay-epochs 2.4 --decay-rate .97 --opt-eps .001 -j 16 --weight-decay 1e-5 --drop 0.2 --drop-path 0.2 --model-ema --model-ema-decay 0.9999 --aa rand-m9-mstd0.5 --remode pixel --amp --lr 0.4 --warmup-epochs 5 --resume output/train/20230213-144502-mobilenetv2_100-224/last.pth.tar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Thanks to the following for hardware support:
 
 * TPU Research Cloud (TRC) (https://sites.research.google/trc/about/)
