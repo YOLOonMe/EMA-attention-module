@@ -6,7 +6,7 @@
 ## Training on CIFAR-100 with ResNet for 200 epochs.
 - Train
   ```shell
-  CUDA_VISIBLE_DEVICES=0 python train_cifar100.py --b 142
+  CUDA_VISIBLE_DEVICES=0 python train_cifar100.py --b 128
   ```
 | Name                     | Resolution | #Params | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
 |:------------------------:|:----------:|:-------:|:----------:|:----------:|:------------------:|
