@@ -76,6 +76,8 @@
 | + SSA-32               |     640    |  7.27M  |     0    |    58.7   |   38.4    |           | 
 | + SSA-16               |     640    |  7.31M  |     0    |    58.1   |   38.5    |        | 
 | + SSA-2               |     640    |  8.55M  |     0    |    58.3   |   38.8    |            | 
+| YOLOv5l  |     640    |  46.50M  |     109.1    |    67.2    |   48.8    |       [yolov5s(v6.0)](https://github.com/ultralytics/yolov5/releases/tag/v6.0)      | 
+| + SSA-16               |     640    |  46.70M  |     0    |    0   |   0    |        | 
 ## Training on VisDrone 2019 with [YOLOv5x](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression).
 - Train
   ```shell
