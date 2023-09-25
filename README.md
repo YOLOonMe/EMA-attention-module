@@ -73,7 +73,9 @@
 | + ECA|     640    |  7.23M  |     16.5    |    57.1      |       37.6      |        [eca](https://pan.baidu.com/s/1COOK_ltxTfEpwgu4ieTwAQ?pwd=mu94)      | 
 | + CA|     640    |  7.26M  |     16.50    |    57.5    |     38.1      |       [ca](https://pan.baidu.com/s/1coWhu_Ba5OuBtvNyNnCQEg?pwd=bg8u)      | 
 | + EMA               |     640    |  7.24M  |     16.53    |    57.8   |   38.4    |      [ema](https://pan.baidu.com/s/110v-K1CmsHDsR2PylarZgA?pwd=qamz)      | 
-
+| + SSA-32               |     640    |  7.27M  |         |    58.7   |   38.4    |           | 
+| + SSA-16               |     640    |  7.31M  |         |    58.1   |   38.5    |        | 
+| + SSA-2               |     640    |  8.55M  |         |    58.3   |   38.8    |            | 
 ## Training on VisDrone 2019 with [YOLOv5x](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression).
 - Train
   ```shell
