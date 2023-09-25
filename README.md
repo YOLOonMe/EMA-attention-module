@@ -65,7 +65,7 @@
   python val.py --data coco.yaml --img 640 --conf 0.001 --iou 0.65 --weights yolov5s.pt 
   ```
   
-| Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
+| Name                          | Resolution | #Params |   MFLOPs   | mAP@.5 | mAP@.5:.95 | BaiduDrive(models) |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|:------------------:|
 | YOLOv5s  |     640    |  7.23M  |     16.5    |    56.0    |   37.2    |       [yolov5s(v6.0)](https://github.com/ultralytics/yolov5/releases/tag/v6.0)      | 
 | + CBAM         |     640    |  7.27M  |     16.6    |    57.1    |     37.7      |        [cbam](https://pan.baidu.com/s/1qj4y9lrgO1DNI2W38IP6Vg?pwd=1234)      |  
@@ -87,7 +87,7 @@
   python val.py --data VisDrone.yaml --img 640 --weights best.pt
   ```
   
-| Name                          | Resolution | #Params |   MFLOPs   | Top-1 Acc. | Top-5 Acc. | BaiduDrive(models) |
+| Name                          | Resolution | #Params |   MFLOPs   | mAP@.5 | mAP@.5:.95 | BaiduDrive(models) |
 |:-----------------------------:|:----------:|:-------:|:----------:|:----------:|:----------:|:------------------:|
 | YOLOv5x (v6.0)               |     640    |  90.96M  |     314.2    |    49.29    |   30.0    |       -      |
 | [+ CBAM](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression)|     640    |  91.31M  |     315.1    |    49.40      |      30.1      |       -      |
