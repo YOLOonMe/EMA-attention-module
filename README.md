@@ -17,13 +17,12 @@
 | [+ NAM](https://github.com/Christian-lyc/NAM)             |     32     | 23.71M  |   80.62    |    95.28   |          -         |
 | + CA  |     32     | 25.57M  |   80.17    |    94.94   |          -         |
 | + EMA             |     32     | 23.85M  |   80.69    |    95.59   |          [ema](https://pan.baidu.com/s/14CdNiGyou1sLGcRYLYOVKg?pwd=1234)         |
-| + SSA-32 |     32     | 25.82M  |   80.82    |    95.02   |          -         |
-| + SSA-16 |     32     | 28.30M  |   80.83    |    95.03   |          -         |
-| + SSA-2  |     32     | 104.24M  |   80.84    |    95.35   |          -         |
+| + SSA-32 |     32     | 25.82M  |   80.91    |    95.53   |          -         |
+
 | ResNet101                |     32     | 42.70M  |   77.78    |    94.39   |          -         |
 | + CA |     32    | 46.22M  |   80.01    |    94.78   |          -         |
 | + EMA            |     32     | 42.96M  |   80.86    |    95.75   |          -         |
-| + SSA-16         |     32     | 51.37M  |   80.97    |    94.81   |          -         |
+| + SSA-32         |     32     | 51.37M  |   80.61    |    95.26   |          -         |
 
 ## Training on ImageNet-1k with [MobileNetv2](https://github.com/huggingface/pytorch-image-models)  for 400 epochs.
 - Train
@@ -77,8 +76,6 @@
 | + SSA-16               |     640    |  7.31M  |     0    |    58.1   |   38.5    |        | 
 | + SSA-2               |     640    |  8.55M  |     0    |    58.3   |   38.8    |            | 
 | + SSA-1               |     640    |  11.50M  |     0    |    58.8   |   39.1    |            | 
-| YOLOv5l  |     640    |  46.50M  |     109.1    |    67.2    |   48.8    |       [yolov5l(v6.0)](https://github.com/ultralytics/yolov5/releases/tag/v6.0)      | 
-| + SSA-16               |     640    |  46.70M  |     0    |    0   |   0    |        | 
 ## Training on VisDrone 2019 with [YOLOv5x](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression).
 - Train
   ```shell
@@ -96,7 +93,7 @@
 | [+ CBAM](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression)|     640    |  91.31M  |     315.1    |    49.40      |      30.1      |       -      |
 | + CA|     640    |  91.28M  |     315.2    |    49.30    |     30.1      |       -      |
 | + EMA               |     640    |  91.18M  |     315.0    |    49.70   |   30.4    |       [ema](https://pan.baidu.com/s/1p-1763222pb3FuXhVtIzbA?pwd=1234)      |
-| + SSA-16               |     640    |  91.42M  |     317.5    |    0   |   0    |           |
+| + SSA-32               |     640    |  91.18M  |     315.8    |    49.70   |   30.6    |           |
 
 ## References
 - [NAM](https://github.com/Christian-lyc/NAM)
