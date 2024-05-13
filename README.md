@@ -93,7 +93,7 @@
 | [+ CBAM](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression)|     640    |  91.31M  |     315.1    |    49.40      |      30.1      |       -      |
 | + CA|     640    |  91.28M  |     315.2    |    49.30    |     30.1      |       -      |
 | + EMA               |     640    |  91.18M  |     315.0    |    49.70   |   30.4    |       [ema](https://pan.baidu.com/s/1p-1763222pb3FuXhVtIzbA?pwd=1234)      |
-| + SSA-32               |     640    |  91.18M  |     315.8    |    49.70   |   30.6    |           |
+| + SSA-32               |     640    |  91.18M  |     315.8    |    49.80   |   30.7    |           |
 
 ## References
 - [NAM](https://github.com/Christian-lyc/NAM)
