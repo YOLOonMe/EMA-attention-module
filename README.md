@@ -16,12 +16,18 @@
 | + ECA             |     32     | 23.71M  |   79.68    |    95.05   |          -         |
 | [+ NAM](https://github.com/Christian-lyc/NAM)             |     32     | 23.71M  |   80.62    |    95.28   |          -         |
 | + CA  |     32     | 25.57M  |   80.17    |    94.94   |          -         |
+| + SE  |     32     | 26.2M  |   79.71    |    94.82   |          -         |
+| + BAM  |     32     | 24.1M  |   80.03    |    94.97   |          -         |
+| + TAM  |     32     | 23.7M  |   79.85    |    94.87   |          -         |
+| + GAM  |     32     | 149.5M  |   81.33    |    95.46   |          -         |
 | + EMA             |     32     | 23.85M  |   80.69    |    95.59   |          [ema](https://pan.baidu.com/s/14CdNiGyou1sLGcRYLYOVKg?pwd=1234)         |
-| + SSA-32 |     32     | 25.82M  |   80.91    |    95.53   |          -         |
+| + SSA-32 |     32     | 25.6M  |   80.76    |    95.57   |          -         |
+| + SSA-16 |     32     | 27.5M  |   81.32    |    95.55   |          -         |
 | ResNet101                |     32     | 42.70M  |   77.78    |    94.39   |          -         |
 | + CA |     32    | 46.22M  |   80.01    |    94.78   |          -         |
 | + EMA            |     32     | 42.96M  |   80.86    |    95.75   |          -         |
-| + SSA-32         |     32     | 51.37M  |   80.61    |    95.26   |          -         |
+| + SSA-32         |     32     | 46.3M  |   81.37    |    95.29   |          -         |
+| + SSA-16         |     32     | 50.0M  |   81.41    |    95.59   |          -         |
 
 ## Training on ImageNet-1k with [MobileNetv2](https://github.com/huggingface/pytorch-image-models)  for 400 epochs.
 - Train
