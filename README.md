@@ -21,13 +21,13 @@
 | + TAM  |     32     | 23.7M  |   79.85    |    94.87   |          -         |
 | + GAM  |     32     | 149.5M  |   81.33    |    95.46   |          -         |
 | + EMA             |     32     | 23.85M  |   80.69    |    95.59   |          [ema](https://pan.baidu.com/s/14CdNiGyou1sLGcRYLYOVKg?pwd=1234)         |
-| + SSA-32 |     32     | 25.6M  |   80.76    |    95.57   |          -         |
-| + SSA-16 |     32     | 27.5M  |   81.32    |    95.55   |          -         |
+| + SSA-32 |     32     | 25.6M  |   80.76    |    95.57   |          [ssa](https://pan.baidu.com/s/1DTRDXuJmeiJLX_4mD_zgMQ?pwd=845i)          |
+| + SSA-16 |     32     | 27.5M  |   81.32    |    95.55   |          [ssa](https://pan.baidu.com/s/1GH6NMsQ7QI6bJpy_5_fBRw?pwd=cjdi)          |
 | ResNet101                |     32     | 42.70M  |   77.78    |    94.39   |          -         |
 | + CA |     32    | 46.22M  |   80.01    |    94.78   |          -         |
 | + EMA            |     32     | 42.96M  |   80.86    |    95.75   |          -         |
-| + SSA-32         |     32     | 46.3M  |   81.37    |    95.29   |          -         |
-| + SSA-16         |     32     | 50.0M  |   81.41    |    95.59   |          -         |
+| + SSA-32         |     32     | 46.3M  |   81.37    |    95.29   |          [ssa](https://pan.baidu.com/s/1OXqiiR3lhKZGDE9DxRmWMQ?pwd=pazs)         |
+| + SSA-16         |     32     | 50.0M  |   81.41    |    95.59   |          [ssa](https://pan.baidu.com/s/1qD6CKt9EUnkm_64UCLAekw?pwd=fwmk)         |
 
 ## Training on ImageNet-1k with [MobileNetv2](https://github.com/huggingface/pytorch-image-models)  for 400 epochs.
 - Train
